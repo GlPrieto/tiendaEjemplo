@@ -5,3 +5,7 @@ const Cliente = mongoose.model('Cliente',
 const Articulo = mongoose.model('Articulo',
 {nombre: String, precio: Number}
 );
+module.exports = {
+    Cliente: Cliente,
+    Articulo: Articulo
+}
