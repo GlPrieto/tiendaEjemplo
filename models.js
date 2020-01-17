@@ -9,3 +9,7 @@ module.exports = {
     Cliente: Cliente,
     Articulo: Articulo
 }
+// module.exports = {
+//     Cliente,
+//     Articulo
+// }
