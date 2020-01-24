@@ -6,7 +6,7 @@ const app = express();
 
 
 // CONEXIÓN A BASE DE DATOS
-mongoose.connect("mongodb://localhost:27017/tienda", { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://gloria:gloria@cluster0-v6pcu.mongodb.net/tienda?retryWrites=true&w=majority", { useNewUrlParser: true })
     .then(db => console.log("Conexión a BD correcta"))
     .catch(error => console.log("Error al conectarse a la BD" + error));
 
